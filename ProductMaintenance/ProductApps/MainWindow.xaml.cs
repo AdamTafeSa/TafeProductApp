@@ -38,6 +38,8 @@ namespace ProductApps
                 totalChargeTextBox.Text = Convert.ToString(newcost);
                 newcost += 5;
                 totalChargewrapTextBox.Text = Convert.ToString(newcost);
+                newcost = newcost * 1.1m;
+                totalChargeGstTextBox.Text = Convert.ToString(newcost);
             }
             catch (FormatException)
             {
